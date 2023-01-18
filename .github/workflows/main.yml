@@ -30,4 +30,3 @@ jobs:
       working-directory: '.'
     - run: npm run build --if-present
       working-directory: '.'
-.
