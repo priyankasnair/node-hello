@@ -33,5 +33,6 @@ jobs:
 #         path: ~/.npm
 #         key: npm-${{ hashFiles('package-lock.json') }}
 #         restore-keys: npm-
+    - run: npm install
     - run: npm start
 #       working-directory: .
